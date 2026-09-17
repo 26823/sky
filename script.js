@@ -17,13 +17,11 @@ scene("game", () => {
                 height() / 1080
             )
         ),
-        fixed(),
     ]);
 
     add([
         sprite("player"),
         pos(width() / 2, 200),
-        scale(0.5),
     ]);
 
 });
